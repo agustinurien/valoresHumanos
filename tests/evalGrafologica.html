@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <a href="" class="logo"></a>
+        </header>
+    </header>
+    <main>
+        <div class="header col-12 wrap-container">
+            <h2 class="title">Evaluacion Grafologica</h2>
+
+        </div>
+
+        <div id="root" class="container">
+            <div>
+                <div class="containerPreguntas">
+                    <ol class="pasos">
+                        <li>Por favor escriba una carta de mínimo 10 renglones, de un tema personal o laboral con birome
+                            y en hoja lisa.</li>
+                        <li>Firmela</li>
+                        <li>Aclare su firma</li>
+                        <li>Pongale la fecha de hoy y tu numero de DNI</li>
+                        <li>Luego saquele una foto en la que podamos ver los 4 margenes de la hoja</li>
+                    </ol>
+
+                    <div class="subirArchivo">
+                        <form action="procesar.php" method="POST" enctype="multipart/form-data">
+                            <input type="file" name="foto" accept="image/*">
+                            <input class="subirFoto" type="submit" value="Subir foto">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

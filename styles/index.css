@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* layout styles */
+
+body{
+    background-color: #132248;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    padding: 0px 30px;
+}
+
+.logo{
+    width: 150px;
+    height: 100%;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
